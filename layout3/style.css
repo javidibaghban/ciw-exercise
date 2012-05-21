@@ -1,0 +1,146 @@
+div{
+	outline:1px dashed white;
+}
+
+body{
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div.backimage{
+	position : fixed;
+	left     : 0;
+	right    : 0;
+	top      : 0;
+	bottom   : 0;
+	z-index:-1;
+	background-image    : url('images/background.jpg');
+	background-repeat   : no-repeat;
+	background-size     : cover;
+	background-position : center top;
+}
+
+.container-tooltip{
+	padding: 10px 0px;
+}
+
+.tooltip{
+	background-color: #ffd62c;
+	font-size:13px;
+	padding: 6px 4px;
+	margin-right:20px;
+}
+
+.container-header{
+	padding: 10px 15px;
+	background-color:#F9F9F9;
+}
+
+.container-header .logo{
+	
+}
+
+.container-header .logo h1{
+	width:148px;
+	height:47px;
+	background-image: url('images/scope_logo.jpg');
+	background-size:100% 100%;
+	text-indent:1000px;
+	overflow: hidden;
+}
+.h2{
+	margin-top:13px;	
+}
+
+.menu ul{
+	list-style-type:none;
+	margin:10px auto;
+}
+.menu li{
+	float:left;
+	position:relative;
+}
+.menu li:hover a{
+	color:black;	
+}
+.menu a{
+	text-decoration:none;
+	display:block;
+	padding:7px 15px;
+	color:#C0C0C0;
+	text-transform:capitalize;
+	font-size:14px;
+}
+.menu li ul{
+	position:absolute;
+	list-style-type:none;
+	left:0;
+	top:15px;
+	display:none;
+}
+.menu li:hover ul{
+	display:block;
+	min-width:100%;	
+}
+.menu li li{
+	float:none;
+	background-color:#F9F9F9;
+	border-bottom:1px solid #C0C0C0;
+}
+.menu li li:hover a{
+	color:black;
+}
+.menu li li a{
+	white-space:nowrap;
+	list-style-type:none;
+	margin:0 auto;
+	color:#C0C0C0;
+	display:block;
+}
+
+.banner-left{
+	background-color:#F9F9F9;
+	padding:20px 0 40px 20px;	
+}
+div.page {
+	width:700px;
+	height:350px;
+	overflow:hidden;
+	position:relative;
+}
+
+#scroll{
+	width:1700px;
+	position:absolute;
+	left:0;
+	top:0;
+	-webkit-transition:all 1s;
+}
+div.page img {
+	display:block;
+	float:left;
+}
+aside.banner-right{
+	
+	background-color:#F9F9F9;	
+}
+section.dot1{
+	padding-left:20px;
+	background-color:#F9F9F9;
+		
+}
+p.khat{
+	margin-left:8px;
+		background-color:#F9F9F9;	
+}
+.dot2{
+	background-repeat:repeat-x;	
+}
+section.widgets{
+	background-color:#F9F9F9;
+	padding:30px 20px 40px 20px;
+	height:300px;
+}
+section.bgpic{
+	height:160px;
+	background-color:red;
+}
