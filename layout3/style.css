@@ -123,25 +123,19 @@ aside.banner-right{
 	
 	background-color:#F9F9F9;	
 }
-div.dot1{
-	padding-left:20px;
-	background-color:#F9F9F9;
-		
-}
-div.pic1{
-	background-image:url('images/bg-title.gif');
+div.dot{
+	padding-left:15px;
+	background-color:red;	
 }
 div.pic2{
 	background-image:url('images/dots.gif');
-	margin-left:20px;	
+	background-repeat:repeat-x;
+	margin-left:50px;	
 }
 
-section.widgets{
+div.widgets{
 	background-color:#F9F9F9;
 	padding:30px 20px 40px 20px;
 	height:300px;
 }
-section.bgpic{
-	height:160px;
-	background-color:red;
-}
+
