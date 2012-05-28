@@ -42,6 +42,31 @@
 		ctx.fillRect(240,90,80,80);
 		ctx.fill();
 		ctx.closePath();
+		
+		ctx.beginPath();
+		ctx.fillStyle='rgb(200,100,300)';
+		ctx.fillRect(100,300,100,100);
+		ctx.clearRect(120,320,60,60);
+		ctx.strokeStyle='rgb(200,100,300)';
+		ctx.strokeRect(130,330,40,40);
+		ctx.stroke();
+		ctx.closePath();
+		 
+		ctx.beginPath();
+		ctx.fillStyle='rgb(100,200,300)';  
+		ctx.moveTo(300,350);  
+		ctx.lineTo(400,350);  
+		ctx.lineTo(300,450);  
+		ctx.fill();  
+   
+		ctx.beginPath(); 
+		ctx.strokeStyle='rgb(100,200,300)';  
+		ctx.moveTo(420,350);  
+		ctx.lineTo(420,450);  
+		ctx.lineTo(320,450);  
+		ctx.closePath();  
+		ctx.stroke();  
+		
 	</script>
 
 </body>
